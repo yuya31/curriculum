@@ -13,7 +13,7 @@ public class Task1_5 {
         String[]  fruits = {"みかん" , "りんご" , "ぶどう" ,"メロン"};
 
         // ② for文を使って①で作成した配列を出力しなさい。
-        for (String i = 0; i < 5; i++) {
+        for (int i = 0; i < 4; i++) {
             System.out.println(fruits[i]);
 
         }
@@ -22,10 +22,10 @@ public class Task1_5 {
         /*
         *  [1から1ずつ足し算をしていき100になるまで出力される]
         */
-        int i = 1;
-        while(i <= 100) {
-          System.out.print(i);
-          i++;
+        var number = 1;
+        while(number <= 100) {
+          System.out.print(number);
+          number++;
         }
         System.out.println();
 
@@ -40,9 +40,9 @@ public class Task1_5 {
         *     8 || 8 | 16 | 24 | 32 | 40 | 48 | 56 | 64 | 72 |
         *     9 || 9 | 18 | 27 | 36 | 45 | 54 | 63 | 72 | 81 |
         */
-        for (int i = 1; i <= 9; i++) {
+        for (number= 1; number <= 9; number++) {
             for (int j = 1; j<= 9; j++) {
-                System.out.print((i * j) + || + " " );
+                System.out.print((number * j) + "||" + " " );
             }
             System.out.println();
         }
